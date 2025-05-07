@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Landing page produk untuk iklan TikTok Ads">
+    <title>Produk Landing Page - TikTok Ads</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Swiper JS untuk slider testimoni -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Hero Section (Hook) -->
+    <section class="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-pink-500 to-purple-600 overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <div class="container mx-auto px-4 text-center relative z-10 py-12">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight">Rahasia Kulit Glowing <span class="text-yellow-300">Dalam 7 Hari!</span></h1>
+            <p class="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">Produk skincare dengan formula Korea yang sudah terbukti pada 10.000+ wanita Indonesia</p>
+            
+            <!-- Placeholder untuk video/gambar -->
+            <div class="relative mx-auto w-full max-w-lg rounded-xl overflow-hidden shadow-2xl mb-8 border-4 border-white">
+                <img src="https://via.placeholder.com/600x800" alt="Product Demo" class="w-full">
+                <!-- Overlay play button untuk kesan video -->
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <div class="bg-white bg-opacity-80 rounded-full p-4">
+                        <i class="fas fa-play text-pink-600 text-3xl"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- CTA Button -->
+            <a href="#order" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-4 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-lg">
+                <i class="fab fa-whatsapp mr-2"></i> Pesan via WhatsApp
+            </a>
+            
+            <!-- Trust badges -->
+            <div class="flex flex-wrap justify-center gap-4 mt-8">
+                <div class="bg-white bg-opacity-20 px-4 py-2 rounded-full text-white">
+                    <i class="fas fa-check-circle mr-2"></i> BPOM Certified
+                </div>
+                <div class="bg-white bg-opacity-20 px-4 py-2 rounded-full text-white">
+                    <i class="fas fa-truck mr-2"></i> Free Shipping
+                </div>
+                <div class="bg-white bg-opacity-20 px-4 py-2 rounded-full text-white">
+                    <i class="fas fa-shield-alt mr-2"></i> 100% Original
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefit/Fitur Utama Produk -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Kenapa Harus Pilih <span class="text-pink-600">Yusma Lotion</span>?</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-pink-50 p-6 rounded-xl text-center transform transition duration-300 hover:scale-105">
+                    <div class="bg-pink-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-tint text-3xl text-pink-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Bahan Alami Korea</h3>
+                    <p class="text-gray-600">Diformulasikan dengan 10 ekstrak alami yang diimpor langsung dari Korea</p>
+                </div>
+                
+                <div class="bg-purple-50 p-6 rounded-xl text-center transform transition duration-300 hover:scale-105">
+                    <div class="bg-purple-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-magic text-3xl text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Hasil dalam 7 Hari</h3>
+                    <p class="text-gray-600">Kulit lebih cerah, glowing dan bebas jerawat hanya dalam 1 minggu pemakaian</p>
+                </div>
+                
+                <div class="bg-yellow-50 p-6 rounded-xl text-center transform transition duration-300 hover:scale-105">
+                    <div class="bg-yellow-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-heart text-3xl text-yellow-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Aman & Teruji</h3>
+                    <p class="text-gray-600">Sudah lulus uji dermatologi dan aman untuk semua jenis kulit</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimoni Pengguna -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">Testimoni Pengguna</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Lihat apa kata mereka yang sudah mencoba Yusma Lotion dan merasakan hasilnya</p>
+            
+            <!-- Swiper Slider -->
+            <div class="swiper-container testimonial-slider">
+                <div class="swiper-wrapper pb-12">
+                    <!-- Testimoni 1 -->
+                    <div class="swiper-slide">
+                        <div class="bg-white p-6 rounded-xl shadow-lg">
+                            <div class="flex items-center mb-4">
+                                <img src="https://via.placeholder.com/60" alt="User" class="rounded-full mr-4 border-2 border-pink-400">
+                                <div>
+                                    <h4 class="font-bold">Dina S.</h4>
+                                    <div class="text-yellow-400">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 italic">"Sudah coba banyak produk tapi cuma Yusma Lotion yang bikin kulit aku glowing dalam seminggu! Jerawat juga hilang, padahal udah bertahun-tahun bermasalah."</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimoni 2 -->
+                    <div class="swiper-slide">
+                        <div class="bg-white p-6 rounded-xl shadow-lg">
+                            <div class="flex items-center mb-4">
+                                <img src="https://via.placeholder.com/60" alt="User" class="rounded-full mr-4 border-2 border-pink-400">
+                                <div>
+                                    <h4 class="font-bold">Ratna W.</h4>
+                                    <div class="text-yellow-400">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 italic">"Awalnya ragu karena harganya terjangkau, tapi setelah pakai 2 minggu, kulit jadi cerah dan kenyal. Bahkan suami bilang aku keliatan lebih muda!"</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimoni 3 -->
+                    <div class="swiper-slide">
+                        <div class="bg-white p-6 rounded-xl shadow-lg">
+                            <div class="flex items-center mb-4">
+                                <img src="https://via.placeholder.com/60" alt="User" class="rounded-full mr-4 border-2 border-pink-400">
+                                <div>
+                                    <h4 class="font-bold">Anisa K.</h4>
+                                    <div class="text-yellow-400">★★★★★</div>
+                                </div>
+                            </div>
+                            <p class="text-gray-600 italic">"Produk lokal dengan kualitas internasional! Udah 3 bulan pakai dan kulit makin bagus. Noda hitam bekas jerawat juga memudar. Recommended banget!"</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bukti Sosial dari TikTok -->
+    <section class="py-16 bg-black text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">Viral di TikTok! <i class="fab fa-tiktok ml-2"></i></h2>
+            <p class="text-center text-gray-300 mb-12 max-w-2xl mx-auto">Lihat apa kata para TikToker tentang Yusma Lotion</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- TikTok Review 1 -->
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800">
+                    <div class="flex items-center mb-3">
+                        <img src="https://via.placeholder.com/40" alt="TikToker" class="rounded-full mr-3">
+                        <div>
+                            <p class="font-bold">@beauty.review</p>
+                            <p class="text-xs text-gray-400">2.5M followers</p>
+                        </div>
+                    </div>
+                    <div class="aspect-w-9 aspect-h-16 bg-gray-800 rounded-lg mb-3">
+                        <div class="flex items-center justify-center h-48">
+                            <i class="fab fa-tiktok text-4xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-sm">"Guys! Aku nemu produk lokal yang hasilnya gak kalah sama skincare Korea mahal! Cek review lengkapnya di TikTok aku ya 😍"</p>
+                </div>
+                
+                <!-- TikTok Review 2 -->
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800">
+                    <div class="flex items-center mb-3">
+                        <img src="https://via.placeholder.com/40" alt="TikToker" class="rounded-full mr-3">
+                        <div>
+                            <p class="font-bold">@glowup.diary</p>
+                            <p class="text-xs text-gray-400">1.2M followers</p>
+                        </div>
+                    </div>
+                    <div class="aspect-w-9 aspect-h-16 bg-gray-800 rounded-lg mb-3">
+                        <div class="flex items-center justify-center h-48">
+                            <i class="fab fa-tiktok text-4xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-sm">"Sebelum-sesudah pake Yusma Lotion selama 7 hari. Hasilnya bikin aku speechless! Udah abis 3 botol dan masih repurchase terus 💕"</p>
+                </div>
+                
+                <!-- TikTok Review 3 -->
+                <div class="bg-gray-900 p-4 rounded-xl border border-gray-800">
+                    <div class="flex items-center mb-3">
+                        <img src="https://via.placeholder.com/40" alt="TikToker" class="rounded-full mr-3">
+                        <div>
+                            <p class="font-bold">@skincare.junkie</p>
+                            <p class="text-xs text-gray-400">890K followers</p>
+                        </div>
+                    </div>
+                    <div class="aspect-w-9 aspect-h-16 bg-gray-800 rounded-lg mb-3">
+                        <div class="flex items-center justify-center h-48">
+                            <i class="fab fa-tiktok text-4xl"></i>
+                        </div>
+                    </div>
+                    <p class="text-sm">"Akhirnya ketemu holy grail buat kulit berminyak dan berjerawat! Yusma Lotion ini game changer banget. Cek review lengkapnya di bio aku ya 🔥"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promo/Offer Section -->
+    <section id="order" class="py-16 bg-gradient-to-r from-pink-600 to-purple-700">
+        <div class="container mx-auto px-4 text-center">
+            <div class="bg-white bg-opacity-10 backdrop-blur-sm rounded-2xl p-8 max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">PROMO SPESIAL HARI INI!</h2>
+                <p class="text-xl text-yellow-300 mb-6 font-bold">DISKON 50% + FREE ONGKIR</p>
+                
+                <!-- Countdown Timer -->
+                <div class="mb-8">
+                    <p class="text-white mb-2">Promo berakhir dalam:</p>
+                    <div class="flex justify-center gap-4" id="countdown">
+                        <div class="bg-white text-pink-600 rounded-lg p-3 w-16">
+                            <div class="text-2xl font-bold" id="hours">05</div>
+                            <div class="text-xs">JAM</div>
+                        </div>
+                        <div class="bg-white text-pink-600 rounded-lg p-3 w-16">
+                            <div class="text-2xl font-bold" id="minutes">45</div>
+                            <div class="text-xs">MENIT</div>
+                        </div>
+                        <div class="bg-white text-pink-600 rounded-lg p-3 w-16">
+                            <div class="text-2xl font-bold" id="seconds">30</div>
+                            <div class="text-xs">DETIK</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Price -->
+                <div class="mb-8">
+                    <p class="text-white text-lg">Harga Normal: <span class="line-through">Rp 299.000</span></p>
+                    <p class="text-3xl font-bold text-white">Harga Promo: <span class="text-yellow-300">Rp 149.500</span></p>
+                    <p class="text-white text-sm mt-2">*Stok terbatas, hanya 50 produk tersisa!</p>
+                </div>
+                
+                <!-- CTA Button -->
+                <a href="https://wa.me/628xxxxxxxxxx?text=Halo,%20saya%20mau%20order%20[Nama%20Produk]" class="inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-4 px-8 rounded-full text-lg transition duration-300 transform hover:scale-105 shadow-lg">
+                    <i class="fab fa-whatsapp mr-2"></i> PESAN SEKARANG
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Kedua -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-2xl font-bold mb-6">Masih Ragu? Coba Dulu Ukuran Travel Size!</h2>
+            <p class="text-gray-600 mb-8 max-w-2xl mx-auto">Dapatkan ukuran travel 15ml dengan harga spesial Rp 49.000 (sudah termasuk ongkir)</p>
+            <a href="https://wa.me/628xxxxxxxxxx?text=Halo,%20saya%20mau%20order%20[Nama%20Produk]%20ukuran%20travel" class="inline-block bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300">
+                Order Travel Size
+            </a>
+        </div>
+    </section>
+
+    <!-- FAQ Singkat -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Pertanyaan Umum</h2>
+            <div class="max-w-2xl mx-auto space-y-6">
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-bold mb-2">Apakah produk ini cocok untuk kulit sensitif?</h3>
+                    <p class="text-gray-600">Ya, Yusma Lotion sudah teruji dermatologi dan aman untuk semua jenis kulit, termasuk kulit sensitif. Produk kami bebas paraben, alkohol, dan bahan kimia berbahaya.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-bold mb-2">Berapa lama pengiriman sampai ke alamat saya?</h3>
+                    <p class="text-gray-600">Pengiriman dilakukan dalam 1-2 hari kerja dan estimasi sampai 2-5 hari tergantung lokasi Anda. Kami menggunakan jasa ekspedisi terpercaya dan memberikan nomor resi untuk melacak pesanan.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm">
+                    <h3 class="text-xl font-bold mb-2">Bagaimana cara pemakaian yang benar?</h3>
+                    <p class="text-gray-600">Gunakan Yusma Lotion 2x sehari (pagi dan malam) setelah membersihkan wajah. Aplikasikan secukupnya ke seluruh wajah dengan gerakan memijat lembut hingga meresap.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2">[Nama Brand]</h3>
+                    <p class="text-gray-400">Skincare terbaik dengan formula Korea</p>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="#" class="text-white hover:text-pink-400 transition">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-pink-400 transition">
+                        <i class="fab fa-tiktok text-2xl"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-pink-400 transition">
+                        <i class="fab fa-whatsapp text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-6 pt-6 text-center text-sm text-gray-400">
+                <p>© 2023 [Nama Brand]. All rights reserved.</p>
+                <p class="mt-2">Hasil dapat bervariasi pada setiap individu. Produk telah terdaftar di BPOM RI.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Inisialisasi Swiper untuk testimoni
+        const testimonialSwiper = new Swiper('.testimonial-slider', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+            autoplay: {
+                delay: 3000,
+            },
+        });
+
+        // Countdown Timer
+        function updateCountdown() {
+            const hours = document.getElementById('hours');
+            const minutes = document.getElementById('minutes');
+            const seconds = document.getElementById('seconds');
+            
+            let h = parseInt(hours.innerText);
+            let m = parseInt(minutes.innerText);
+            let s = parseInt(seconds.innerText);
+            
+            s = s - 1;
+            
+            if (s < 0) {
+                s = 59;
+                m = m - 1;
+                
+                if (m < 0) {
+                    m = 59;
+                    h = h - 1;
+                    
+                    if (h < 0) {
+                        h = 0;
+                        m = 0;
+                        s = 0;
+                    }
+                }
+            }
+            
+            hours.innerText = h.toString().padStart(2, '0');
+            minutes.innerText = m.toString().padStart(2, '0');
+            seconds.innerText = s.toString().padStart(2, '0');
+            
+            if (h === 0 && m === 0 && s === 0) {
+                clearInterval(countdownInterval);
+            }
+        }
+        
+        const countdownInterval = setInterval(updateCountdown, 1000);
+
+        // Smooth scroll untuk link anchor
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
