@@ -18,15 +18,10 @@
             <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight">Rahasia Kulit Glowing <span class="text-yellow-300">Dalam 7 Hari!</span></h1>
             <p class="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto">Produk skincare dengan formula Korea yang sudah terbukti pada 10.000+ wanita Indonesia</p>
             
-            <!-- Placeholder untuk video/gambar -->
-            <div class="relative mx-auto w-full max-w-lg rounded-xl overflow-hidden shadow-2xl mb-8 border-4 border-white">
-                <img src="https://via.placeholder.com/600x800" alt="Product Demo" class="w-full">
-                <!-- Overlay play button untuk kesan video -->
-                <div class="absolute inset-0 flex items-center justify-center">
-                    <div class="bg-white bg-opacity-80 rounded-full p-4">
-                        <i class="fas fa-play text-pink-600 text-3xl"></i>
-                    </div>
-                </div>
+na            <!-- Placeholder untuk video/gambar -->
+i            <div class="relative mx-auto w-full max-w-lg rounded-xl overflow-hidden shadow-2xl mb-8 border-4 border-white">
+                <video src="skincare.mp4" controls autoplay loop muted poster="Skincare.jpg" class="w-full"></video>
+                <!-- Overlay play button tidak diperlukan lagi karena video sudah memiliki kontrol sendiri -->
             </div>
             
             <!-- CTA Button -->
@@ -95,7 +90,7 @@
                     <div class="swiper-slide">
                         <div class="bg-white p-6 rounded-xl shadow-lg">
                             <div class="flex items-center mb-4">
-                                <img src="https://via.placeholder.com/60" alt="User" class="rounded-full mr-4 border-2 border-pink-400">
+                                <img src="img/1.jpg" alt="User" class="rounded-full mr-4 border-2 border-pink-400">
                                 <div>
                                     <h4 class="font-bold">Dina S.</h4>
                                     <div class="text-yellow-400">★★★★★</div>
@@ -109,7 +104,7 @@
                     <div class="swiper-slide">
                         <div class="bg-white p-6 rounded-xl shadow-lg">
                             <div class="flex items-center mb-4">
-                                <img src="https://via.placeholder.com/60" alt="User" class="rounded-full mr-4 border-2 border-pink-400">
+                                <img src="img/2.jpg" alt="User" class="rounded-full mr-4 border-2 border-pink-400">
                                 <div>
                                     <h4 class="font-bold">Ratna W.</h4>
                                     <div class="text-yellow-400">★★★★★</div>
@@ -123,7 +118,7 @@
                     <div class="swiper-slide">
                         <div class="bg-white p-6 rounded-xl shadow-lg">
                             <div class="flex items-center mb-4">
-                                <img src="https://via.placeholder.com/60" alt="User" class="rounded-full mr-4 border-2 border-pink-400">
+                                <img src="img/3.jpg" alt="User" class="rounded-full mr-4 border-2 border-pink-400">
                                 <div>
                                     <h4 class="font-bold">Anisa K.</h4>
                                     <div class="text-yellow-400">★★★★★</div>
@@ -139,6 +134,97 @@
         </div>
     </section>
 
+    <!-- Galeri Produk -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">Koleksi Produk Kami</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Rangkaian lengkap Yusma Skincare untuk perawatan kulit Anda</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+                <!-- Produk 1 -->
+                <div class="bg-pink-50 rounded-xl overflow-hidden shadow-md transition transform hover:scale-105 duration-300">
+                    <div class="relative">
+                        <img src="img/p1.jpg" alt="Facial Wash" class="w-full h-64 object-cover">
+                        <div class="absolute top-2 right-2 bg-yellow-400 text-xs font-bold px-2 py-1 rounded-full">BEST SELLER</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Yusma Facial Wash</h3>
+                        <p class="text-gray-600 text-sm mb-2">Pembersih wajah dengan formula lembut</p>
+                        <p class="font-bold text-pink-600">Rp 89.000</p>
+                    </div>
+                </div>
+                
+                <!-- Produk 2 -->
+                <div class="bg-pink-50 rounded-xl overflow-hidden shadow-md transition transform hover:scale-105 duration-300">
+                    <div class="relative">
+                        <img src="img/p2.jpg" alt="Toner" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Yusma Brightening Toner</h3>
+                        <p class="text-gray-600 text-sm mb-2">Toner pencerah dengan ekstrak lemon</p>
+                        <p class="font-bold text-pink-600">Rp 110.000</p>
+                    </div>
+                </div>
+                
+                <!-- Produk 3 -->
+                <div class="bg-pink-50 rounded-xl overflow-hidden shadow-md transition transform hover:scale-105 duration-300">
+                    <div class="relative">
+                        <img src="img/p3.jpg" alt="Serum" class="w-full h-64 object-cover">
+                        <div class="absolute top-2 right-2 bg-purple-500 text-white text-xs font-bold px-2 py-1 rounded-full">NEW</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Yusma Vitamin C Serum</h3>
+                        <p class="text-gray-600 text-sm mb-2">Serum anti-aging dengan vitamin C</p>
+                        <p class="font-bold text-pink-600">Rp 149.000</p>
+                    </div>
+                </div>
+                
+                <!-- Produk 4 -->
+                <div class="bg-pink-50 rounded-xl overflow-hidden shadow-md transition transform hover:scale-105 duration-300">
+                    <div class="relative">
+                        <img src="img/p4.jpg" alt="Day Cream" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Yusma Day Cream</h3>
+                        <p class="text-gray-600 text-sm mb-2">Krim siang dengan SPF 30</p>
+                        <p class="font-bold text-pink-600">Rp 120.000</p>
+                    </div>
+                </div>
+                
+                <!-- Produk 5 -->
+                <div class="bg-pink-50 rounded-xl overflow-hidden shadow-md transition transform hover:scale-105 duration-300">
+                    <div class="relative">
+                        <img src="img/p5.jpg" alt="Night Cream" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Yusma Night Cream</h3>
+                        <p class="text-gray-600 text-sm mb-2">Krim malam untuk regenerasi kulit</p>
+                        <p class="font-bold text-pink-600">Rp 135.000</p>
+                    </div>
+                </div>
+                
+                <!-- Produk 6 -->
+                <div class="bg-pink-50 rounded-xl overflow-hidden shadow-md transition transform hover:scale-105 duration-300">
+                    <div class="relative">
+                        <img src="img/p6.jpg" alt="Face Mask" class="w-full h-64 object-cover">
+                        <div class="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">PROMO</div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-lg mb-1">Yusma Clay Mask</h3>
+                        <p class="text-gray-600 text-sm mb-2">Masker wajah untuk detoksifikasi</p>
+                        <p class="font-bold text-pink-600">Rp 95.000</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-10">
+                <a href="#order" class="inline-block bg-pink-500 hover:bg-pink-600 text-white font-bold py-3 px-6 rounded-full text-lg transition duration-300">
+                    Lihat Semua Produk
+                </a>
+            </div>
+        </div>
+    </section>
+
     <!-- Bukti Sosial dari TikTok -->
     <section class="py-16 bg-black text-white">
         <div class="container mx-auto px-4">
@@ -149,51 +235,60 @@
                 <!-- TikTok Review 1 -->
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800">
                     <div class="flex items-center mb-3">
-                        <img src="https://via.placeholder.com/40" alt="TikToker" class="rounded-full mr-3">
+                        <img src="img/1.jpg" alt="TikToker" class="rounded-full mr-3">
                         <div>
                             <p class="font-bold">@beauty.review</p>
                             <p class="text-xs text-gray-400">2.5M followers</p>
                         </div>
                     </div>
-                    <div class="aspect-w-9 aspect-h-16 bg-gray-800 rounded-lg mb-3">
-                        <div class="flex items-center justify-center h-48">
-                            <i class="fab fa-tiktok text-4xl"></i>
+                    <div class="aspect-w-9 aspect-h-16 bg-gray-800 rounded-lg mb-3"> 
+                        <div class="flex items-center justify-center h-48 relative"> 
+                            <img src="img/p1.jpg" alt="TikTok Content" class="w-full h-full object-cover absolute inset-0"> 
+                            <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                                <i class="fab fa-tiktok text-4xl text-white"></i> 
+                            </div>
                         </div>
-                    </div>
+                    </div> 
                     <p class="text-sm">"Guys! Aku nemu produk lokal yang hasilnya gak kalah sama skincare Korea mahal! Cek review lengkapnya di TikTok aku ya 😍"</p>
                 </div>
                 
                 <!-- TikTok Review 2 -->
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800">
                     <div class="flex items-center mb-3">
-                        <img src="https://via.placeholder.com/40" alt="TikToker" class="rounded-full mr-3">
+                        <img src="img/2.jpg" alt="TikToker" class="rounded-full mr-3">
                         <div>
                             <p class="font-bold">@glowup.diary</p>
                             <p class="text-xs text-gray-400">1.2M followers</p>
                         </div>
                     </div>
-                    <div class="aspect-w-9 aspect-h-16 bg-gray-800 rounded-lg mb-3">
-                        <div class="flex items-center justify-center h-48">
-                            <i class="fab fa-tiktok text-4xl"></i>
+                    <div class="aspect-w-9 aspect-h-16 bg-gray-800 rounded-lg mb-3"> 
+                        <div class="flex items-center justify-center h-48 relative"> 
+                            <img src="img/p2.jpg" alt="TikTok Content" class="w-full h-full object-cover absolute inset-0"> 
+                            <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                                <i class="fab fa-tiktok text-4xl text-white"></i> 
+                            </div>
                         </div>
-                    </div>
+                    </div> 
                     <p class="text-sm">"Sebelum-sesudah pake Yusma Lotion selama 7 hari. Hasilnya bikin aku speechless! Udah abis 3 botol dan masih repurchase terus 💕"</p>
                 </div>
                 
                 <!-- TikTok Review 3 -->
                 <div class="bg-gray-900 p-4 rounded-xl border border-gray-800">
                     <div class="flex items-center mb-3">
-                        <img src="https://via.placeholder.com/40" alt="TikToker" class="rounded-full mr-3">
+                        <img src="img/3.jpg" alt="TikToker" class="rounded-full mr-3">
                         <div>
                             <p class="font-bold">@skincare.junkie</p>
                             <p class="text-xs text-gray-400">890K followers</p>
                         </div>
                     </div>
-                    <div class="aspect-w-9 aspect-h-16 bg-gray-800 rounded-lg mb-3">
-                        <div class="flex items-center justify-center h-48">
-                            <i class="fab fa-tiktok text-4xl"></i>
+                    <div class="aspect-w-9 aspect-h-16 bg-gray-800 rounded-lg mb-3"> 
+                        <div class="flex items-center justify-center h-48 relative"> 
+                            <img src="img/p6.jpg" alt="TikTok Content" class="w-full h-full object-cover absolute inset-0"> 
+                            <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
+                                <i class="fab fa-tiktok text-4xl text-white"></i> 
+                            </div>
                         </div>
-                    </div>
+                    </div> 
                     <p class="text-sm">"Akhirnya ketemu holy grail buat kulit berminyak dan berjerawat! Yusma Lotion ini game changer banget. Cek review lengkapnya di bio aku ya 🔥"</p>
                 </div>
             </div>
